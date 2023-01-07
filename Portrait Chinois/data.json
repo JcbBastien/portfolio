@@ -1,0 +1,51 @@
+[
+    {
+        "analogie": "une couleur",
+        "valeuranalogie": "Le Orange",
+        "argument": "L'orange est une couleur chaude qui m'a toujours plu, c'est une couleur très énergique, positive et optimiste qui inspire la joie et le bonheur. Il y a aussi un côté de créativité liée au orange.",
+        "id": "color",
+        "img": "images/color.png"
+    },
+    {
+        "analogie": "un animal",
+        "valeuranalogie": "Une Araignée",
+        "argument": "Ceraines personnes trouve ces êtres vivant terrifiant. Certaines d'entre une ont une apparence menaçante, mais elles ne sont pas aussi dangereuse qu'elles en ont l'air. Les Araignées accomplissent leurs tâches seul et sont organisées. Quand un projet est lancé, elles font tout ce qu'elles peuvent.",
+        "id": "animal",
+        "img": "images/spider.png"
+    },
+    {
+        "analogie": "un fruit",
+        "valeuranalogie": "Une Banane",
+        "argument": "Rien de plus qu'une simple banane pour redonner le sourire! L'expression 'Avoir la banane' est la raison principale de mon choix pour ce fruit. La bonne humeur est quelque chose de primordial pour moi.",
+        "id": "BANANA",
+        "img": "images/banana.png"
+    },
+    {
+        "analogie": "une plante",
+        "valeuranalogie": "Une Tulipe",
+        "argument": "Les tulipes peuvent êtres trouvé de différentes couleurs, chacune désignant quelque chose de différent. Les rouges, l'amour; Les blanches, le pardon, et bien d'autres encore! Ce mix d'émotions et de sentiment est important pour moi.",
+        "id": "plant",
+        "img": "images/plant.png"
+    },
+    {
+        "analogie": "un sentiment",
+        "valeuranalogie": "La Joie",
+        "argument": "Le joie est quelque chose de très important dans nos vies. C'est donc pour cela que j'ai choisi ce sentiment, peu importe si les moments sont dur, il faut toujours voir le bon côté des choses afin d'être joyeux.",
+        "id": "feeling",
+        "img": "images/feeling.png"
+    },
+    {
+        "analogie": "une pierre precieuse",
+        "valeuranalogie": "De l'Ambre",
+        "argument": "L'Ambre est une pierre précieuse qui est souvent trouvé avec des insectes préservé dedans. Non seulement c'est une pierre magnifique mais le fait qu'elle ai aussi une utilisation historique importante est fascinant.",
+        "id": "gem",
+        "img": "images/gem.png"
+    },
+    {
+        "analogie": "une ville",
+        "valeuranalogie": "Montréal",
+        "argument": "*Accent Québecois* Depuis tout petit l'Amérique est un continent qui me fascine. Plus précisément le Canada. Montréal est une ville particulièrement belle au saint de ce pays. C'est pour cela que je l'ai choisi.",
+        "id": "city",
+        "img": "images/city.png"
+    }
+]
