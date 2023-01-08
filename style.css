@@ -95,8 +95,8 @@ body{
     flex-direction:row;
     justify-content:space-between;
     align-items: center;
-    padding-left: 2vw;
-    padding-right: 2vw;
+    padding-left: 55px;
+    padding-right: 55px;
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 5vh;
@@ -508,6 +508,8 @@ section{
     .homesection{
         width: 400px;
         height: 150px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
     .homesectionspecial{
         width: 350px;
@@ -537,6 +539,8 @@ section{
         width: 325px;
         height: 125px;
         font-size: 0.9rem;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     .homesectionspecial{
         width: 300px;
