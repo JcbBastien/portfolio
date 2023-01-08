@@ -355,6 +355,87 @@ section{
     background-repeat: no-repeat;
 }
 
+/* bouton fr/en */
+.languagebuttons{
+    display: flex;
+    margin-top: 50px;
+    width: 300px;
+    justify-content: space-between;
+}
+.frenchbuttonfake{
+    background-image: url(images/fr_selected.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    height: 80px;
+    width: 128px;
+    background-color:rgba(0, 0, 0, 0);
+    border:none;
+}
+.englishbuttonfake{
+    background-image: url(images/en_selected.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    height: 80px;
+    width: 128px;
+    background-color:rgba(0, 0, 0, 0);
+    border:none;
+}
+.frenchbutton{
+    background-image: url(images/fr.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    height: 80px;
+    width: 128px;
+    background-color:rgba(0, 0, 0, 0);
+    border:none;
+}
+.frenchbutton:hover{
+    background-image: url(images/fr_hover.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: url(images/pointer.png) 0 0, auto;
+}
+.frenchbutton:focus{
+    background-image: url(images/fr_hover.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    outline: none;
+}
+.frenchbutton:active{
+    background-image: url(images/fr_pressed.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.englishbutton{
+    background-image: url(images/en.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    height: 80px;
+    width: 128px;
+    background-color:rgba(0, 0, 0, 0);
+    border:none;
+}
+.englishbutton:hover{
+    background-image: url(images/en_hover.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: url(images/pointer.png) 0 0, auto;
+}
+.englishbutton:focus{
+    background-image: url(images/en_hover.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    outline: none;
+}
+.englishbutton:active{
+    background-image: url(images/en_pressed.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 /* class pour text */
 .sharpshadowtxtbig{
