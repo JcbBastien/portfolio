@@ -112,6 +112,7 @@ body{
     overflow:hidden;
     position:absolute;
     padding-bottom: 5vh;
+    background-image: url(images/background_pattern.png);
 }
 .entrytitle{
     width: 1000px;
