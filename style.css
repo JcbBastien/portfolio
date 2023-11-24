@@ -370,7 +370,7 @@ section{
     background-repeat: no-repeat;
 }
 
-/* bouton fr/en */
+/* bouton fr/en & theme*/
 .languagebuttons{
     display: flex;
     margin-top: 50px;
@@ -458,6 +458,46 @@ section{
 .englishbutton:active{
     padding:8px 8px 0px 0px;
     background-image: url(images/en_hover.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.theme h2{
+    font-size: 0.9rem;
+}
+.theme{
+    margin-top: 6vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.themebutton{
+    background-image: url(images/theme_dark.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    background-origin: content-box;
+    padding: 4px;
+    height: 66px;
+    width: 108px;
+    background-color:rgba(0, 0, 0, 0);
+    border:none;
+}
+.themebutton:hover{
+    background-image: url(images/theme_dark_selected.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: url(images/pointer.png) 0 0, auto;
+}
+.themebutton:focus{
+    background-image: url(images/theme_dark_selected.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    outline: none;
+}
+.themebutton:active{
+    padding:8px 8px 0px 0px;
+    background-image: url(images/theme_dark_selected.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -587,6 +627,170 @@ section{
         width: 350px;
         font-size: 0.9rem;
     }
+}
+
+/* light mode */
+.light-mode{
+    background-color: #C5CF98;
+    background-image: url(images/background_pattern_light.png);
+    cursor: url(images/cursor_light.png) 0 0, auto;
+}
+.light-mode .entrywholepage{
+    background-image: url(images/background_pattern_light.png);
+}
+.light-mode *::selection{
+    background: #01040D80;
+}
+.light-mode .sharpshadowtxtbig{
+    text-shadow: -4px 4px 0px #7f8462;
+}
+.light-mode .sharpshadowtxtsmall{
+    text-shadow: -1px 1px 0px #7f8462;
+}
+.light-mode .homesection .sharpshadowtxtbig{
+    text-shadow: -6px 6px 0px #1E0E20;
+}
+.light-mode .homesection .sharpshadowtxtsmall{
+    text-shadow: -2px 2px 0px #1E0E20;
+}
+.light-mode .homesectionspecial .sharpshadowtxtbig{
+    text-shadow: -6px 6px 0px #1E0E20;
+}
+.light-mode .homesectionspecial .sharpshadowtxtsmall{
+    text-shadow: -2px 2px 0px #1E0E20;
+}
+.light-mode .homesection *::selection{
+    background: #f9fbca80;
+}
+.light-mode .homesectionspecial *::selection{
+    background: #f9fbca80;
+}
+.light-mode .homesection:hover{
+    cursor: url(images/cursor.png) 0 0, auto;
+}
+.light-mode .homesectionspecial:hover{
+    cursor: url(images/cursor.png) 0 0, auto;
+}
+.light-mode .entrytitle{
+    background-color: #cfca98;
+}
+.light-mode .entrycontent{
+    background-color: #cfca98;
+}
+/* buttons */
+.light-mode .entrynamebutton{
+    -webkit-box-shadow: -12px 12px 0px -1px #7f8462; 
+    box-shadow: -12px 12px 0px -1px #7f8462;
+}
+.light-mode .entrynamebutton:hover{
+    background-color: #7f8462;
+    box-shadow: inset 0px 0px 0px 5px #9E2A33, -12px 12px 0px -1px #7f8462;
+    -webkit-box-shadow: inset 0px 0px 0px 5px #9E2A33, -12px 12px 0px -1px #7f8462;
+    cursor: url(images/pointer_light.png) 0 0, auto;
+}
+.light-mode .entrynamebutton:focus{
+    background-color: #7f8462;
+    box-shadow: inset 0px 0px 0px 5px #9E2A33, -12px 12px 0px -1px #7f8462;
+    -webkit-box-shadow: inset 0px 0px 0px 5px #9E2A33, -12px 12px 0px -1px #7f8462;
+}
+.light-mode .entrynamebutton:active{
+    -webkit-box-shadow: 0px 0px 0px 0px #7f8462;
+    box-shadow: 0px 0px 0px 0px #7f8462;
+}
+.light-mode .entrycontent .entryhomebutton{
+    -webkit-box-shadow: -6px 6px 0px -1px #7f8462; 
+    box-shadow: -6px 6px 0px -1px #7f8462;
+}
+.light-mode .entrycontent .entryhomebutton:hover{
+    background-color: #7f8462;
+    box-shadow: inset 0px 0px 0px 2px #9E2A33, -6px 6px 0px -1px #7f8462; 
+    -webkit-box-shadow: inset 0px 0px 0px 2px #9E2A33, -6px 6px 0px -1px #7f8462; 
+    cursor: url(images/pointer_light.png) 0 0, auto;
+}
+.light-mode .entrycontent .entryhomebutton:focus{
+    background-color: #7f8462;
+    box-shadow: inset 0px 0px 0px 2px #9E2A33, -6px 6px 0px -1px #7f8462; 
+    -webkit-box-shadow: inset 0px 0px 0px 2px #9E2A33, -6px 6px 0px -1px #7f8462; 
+}
+.light-mode .entrycontent .entryhomebutton:active{
+    -webkit-box-shadow: 0px 0px 0px 0px #7f8462;
+    box-shadow: 0px 0px 0px 0px #7f8462;
+}
+/* theme */
+.light-mode .themebutton{
+    background-image: url(images/theme_light.png);
+}
+.light-mode .themebutton:hover{
+    background-image: url(images/theme_light_selected.png);
+    cursor: url(images/pointer_light.png) 0 0, auto;
+}
+.light-mode .themebutton:focus{
+    background-image: url(images/theme_light_selected.png);
+}
+.light-mode .themebutton:active{
+    background-image: url(images/theme_light_selected.png);
+}
+/*english*/
+.light-mode .englishbuttonfake{
+    background-image: url(images/en_selected_light.png);
+}
+.light-mode .englishbutton{
+    background-image: url(images/en_light.png);
+}
+.light-mode .englishbutton:hover{
+    background-image: url(images/en_hover_light.png);
+    cursor: url(images/pointer_light.png) 0 0, auto;
+}
+.light-mode .englishbutton:focus{
+    background-image: url(images/en_hover_light.png);
+}
+.light-mode .englishbutton:active{
+    background-image: url(images/en_hover_light.png);
+}
+/*french*/
+.light-mode .frenchbuttonfake{
+    background-image: url(images/fr_selected_light.png);
+}
+.light-mode .frenchbutton{
+    background-image: url(images/fr_light.png);
+}
+.light-mode .frenchbutton:hover{
+    background-image: url(images/fr_hover_light.png);
+    cursor: url(images/pointer_light.png) 0 0, auto;
+}
+.light-mode .frenchbutton:focus{
+    background-image: url(images/fr_hover_light.png);
+}
+.light-mode .frenchbutton:active{
+    background-image: url(images/fr_hover_light.png);
+}
+/* home */
+.light-mode .homebutton{
+    background-image: url(images/home_light.png);
+}
+.light-mode .homebutton:hover{
+    background-image: url(images/home_selected_light.png);
+    cursor: url(images/pointer_light.png) 0 0, auto;
+}
+.light-mode .homebutton:focus{
+    background-image: url(images/home_selected_light.png);
+}
+.light-mode .homebutton:active{
+    background-image: url(images/home_selected_light.png);
+}
+/* back */
+.light-mode .buttonback{
+    background-image: url(images/back_light.png);
+}
+.light-mode .buttonback:hover{
+    background-image: url(images/back_selected_light.png);
+    cursor: url(images/pointer_light.png) 0 0, auto;
+}
+.light-mode .buttonback:focus{
+    background-image: url(images/back_selected_light.png);
+}
+.light-mode .buttonback:active{
+    background-image: url(images/back_selected_light.png);
 }
 
 /* hidden a garder à la fin */

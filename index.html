@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="images/favicon.png" type="png">
     <script src="scripts/indexscript.js" type="module" defer></script>
+    <script src="scripts/thememode.js" type="module" defer></script>
     <title>Bastien JACOB</title>
 </head>
 <body>
@@ -17,6 +18,12 @@
     <div class="entrycenter hidden" id="entrybox">
         <h1 class="pixeled sharpshadowtxtbig">NOM D'ENTRÉE:</h1>
         <a class="entrynamebutton" href="selection.html"><h2 class="pixel">Bastien JACOB</h2></a>
+        <div class="theme">
+            <h2 class="pixeled sharpshadowtxtsmall">Changer de theme:</h2>
+            <button class="themebutton" id="themebutton">
+                <p class="sr-only">Boutton changer de thème</p>
+            </button>
+        </div>
         <div class="languagebuttons">
             <div class="frenchbuttonfake">
                 <p class="sr-only">Français</p>
@@ -26,5 +33,7 @@
             </a>
         </div>
     </div>
+
+    
 </body>
 </html>
