@@ -308,9 +308,11 @@ section{
 .homebutton{
     background-image: url(images/home.png);
     background-size: cover;
+    background-origin: content-box;
     background-repeat: no-repeat;
-    height: 100px;
-    width: 100px;
+    padding: 4px;
+    height: 108px;
+    width: 108px;
     position: absolute;
     align-self: flex-start;
     background-color:rgba(0, 0, 0, 0);
@@ -330,17 +332,20 @@ section{
     outline: none;
 }
 .homebutton:active{
-    background-image: url(images/home_pressed.png);
+    padding:8px 8px 0px 0px;
+    background-image: url(images/home_selected.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 .buttonback{
     background-image: url(images/back.png);
     background-size: cover;
+    background-origin: content-box;
     background-repeat: no-repeat;
     left: 2vw;
-    height: 75px;
-    width: 100px;
+    padding: 4px;
+    height: 83px;
+    width: 108px;
     position:absolute;
     align-self: flex-start;
     background-color:rgba(0, 0, 0, 0);
@@ -359,7 +364,8 @@ section{
     outline: none;
 }
 .buttonback:active{
-    background-image: url(images/back_pressed.png);
+    padding:8px 8px 0px 0px;
+    background-image: url(images/back_selected.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -374,20 +380,24 @@ section{
 .frenchbuttonfake{
     background-image: url(images/fr_selected.png);
     background-size: cover;
+    background-origin: content-box;
     background-repeat: no-repeat;
     display: block;
-    height: 80px;
-    width: 128px;
+    padding: 4px;
+    height: 88px;
+    width: 136px;
     background-color:rgba(0, 0, 0, 0);
     border:none;
 }
 .englishbuttonfake{
     background-image: url(images/en_selected.png);
     background-size: cover;
+    background-origin: content-box;
     background-repeat: no-repeat;
     display: block;
-    height: 80px;
-    width: 128px;
+    padding: 4px;
+    height: 88px;
+    width: 136px;
     background-color:rgba(0, 0, 0, 0);
     border:none;
 }
@@ -396,8 +406,10 @@ section{
     background-size: cover;
     background-repeat: no-repeat;
     display: block;
-    height: 80px;
-    width: 128px;
+    background-origin: content-box;
+    padding: 4px;
+    height: 88px;
+    width: 136px;
     background-color:rgba(0, 0, 0, 0);
     border:none;
 }
@@ -414,17 +426,20 @@ section{
     outline: none;
 }
 .frenchbutton:active{
-    background-image: url(images/fr_pressed.png);
+    padding:8px 8px 0px 0px;
+    background-image: url(images/fr_hover.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 .englishbutton{
     background-image: url(images/en.png);
     background-size: cover;
+    background-origin: content-box;
     background-repeat: no-repeat;
     display: block;
-    height: 80px;
-    width: 128px;
+    padding: 4px;
+    height: 88px;
+    width: 136px;
     background-color:rgba(0, 0, 0, 0);
     border:none;
 }
@@ -441,7 +456,8 @@ section{
     outline: none;
 }
 .englishbutton:active{
-    background-image: url(images/en_pressed.png);
+    padding:8px 8px 0px 0px;
+    background-image: url(images/en_hover.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
