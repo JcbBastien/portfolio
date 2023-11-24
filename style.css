@@ -211,6 +211,9 @@ section{
 }
 
 /* bouton au chargement de la page */
+.entrynamebutton h2{
+    font-size: 1.2rem;
+}
 .entrynamebutton{
     background-color: #9E2A33;
     color: #000000;
@@ -225,6 +228,7 @@ section{
     box-shadow: -12px 12px 0px -1px #1E0E20;
     border: 0px;
     margin: 6px;
+    text-decoration: none;
 }
 .entrynamebutton:hover{
     background-color: #1E0E20;
@@ -252,6 +256,10 @@ section{
 }
 
 /* bouton plus petit */
+.entryhomebutton p{
+    margin:12px 5px 12px 5px;
+    font-size: 0.9rem;
+}
 .entryhomebutton{
     background-color: #9E2A33;
     color: #000000;
@@ -268,6 +276,7 @@ section{
     box-shadow: -6px 6px 0px -1px #1E0E20;
     border: 0px;
     margin: 3px;
+    text-decoration: none;
 }
 .entryhomebutton:hover{
     background-color: #1E0E20;
