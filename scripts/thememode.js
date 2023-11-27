@@ -23,3 +23,8 @@ try{
         }
     });
 }catch(error){};
+
+// Version du style CSS, pour réinitialiser le cache par MAJ du style.
+const cssVersion = "1.1"
+//
+document.getElementById("style").href = document.getElementById("style").href + "?v=" + cssVersion

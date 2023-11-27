@@ -533,6 +533,12 @@ section{
 .linkbutton:hover .gitHub{
     background-image: url(images/github_selected.png);
 }
+.linkbutton:focus .gitHub{
+    background-image: url(images/github_selected.png);
+}
+.linkbutton:active .gitHub{
+    background-image: url(images/github.png);
+}
 .linkedIn{
     background-image: url(images/linkedin.png);
     background-position: center;
@@ -540,6 +546,12 @@ section{
 }
 .linkbutton:hover .linkedIn{
     background-image: url(images/linkedin_selected.png);
+}
+.linkbutton:focus .linkedIn{
+    background-image: url(images/linkedin_selected.png);
+}
+.linkbutton:active .linkedIn{
+    background-image: url(images/linkedin.png);
 }
 
 /* responsive */
