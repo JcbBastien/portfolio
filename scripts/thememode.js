@@ -23,13 +23,3 @@ try{
         }
     });
 }catch(error){};
-
-// Version du style CSS, pour réinitialiser le cache par MAJ du style.
-let cssVersion = "1.4"
-//
-document.getElementById("style").parentElement.innerHTML += `<link rel="stylesheet" href="` + document.getElementById("style").href + `?v=` + cssVersion + `">`
-
-// Timer d'1s pour eviter un clignotement d'une page blanche.
-setTimeout(() => {
-    document.getElementById("style").remove()
-}, "1000");  
