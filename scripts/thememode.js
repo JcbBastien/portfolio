@@ -25,6 +25,11 @@ try{
 }catch(error){};
 
 // Version du style CSS, pour réinitialiser le cache par MAJ du style.
-const cssVersion = "1.1"
+const cssVersion = "1.2"
 //
-document.getElementById("style").href = document.getElementById("style").href + "?v=" + cssVersion
+document.getElementById("style").parentElement.innerHTML += `<link rel="stylesheet" href="style.css?v=` + cssVersion + `" id="style">`
+
+// Timer d'1s pour eviter un clignotement d'une page blanche.
+setTimeout(() => {
+    document.getElementById("style").remove()
+}, "1000");  
