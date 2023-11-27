@@ -160,6 +160,9 @@ section{
     padding: 15px !important;
 }
 .linkbutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-right: 20px;
 }
 .linkcentered{
@@ -514,6 +517,29 @@ section{
 }
 .pixel{
     font-family: Pixel;
+}
+
+/* icones des liens */
+.linkicon{
+    height: 16px;
+    width: 16px;
+    margin-right: 4px;
+}
+.gitHub{
+    background-image: url(images/github.png);
+    background-position: center;
+    background-size: cover;
+}
+.linkbutton:hover .gitHub{
+    background-image: url(images/github_selected.png);
+}
+.linkedIn{
+    background-image: url(images/linkedin.png);
+    background-position: center;
+    background-size: cover;
+}
+.linkbutton:hover .linkedIn{
+    background-image: url(images/linkedin_selected.png);
 }
 
 /* responsive */
