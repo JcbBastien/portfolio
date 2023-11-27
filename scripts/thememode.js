@@ -25,7 +25,7 @@ try{
 }catch(error){};
 
 // Version du style CSS, pour réinitialiser le cache par MAJ du style.
-const cssVersion = "1.2"
+const cssVersion = "1.3"
 //
 document.getElementById("style").parentElement.innerHTML += `<link rel="stylesheet" href="` + document.getElementById("style").href + `?v=` + cssVersion + `" id="style">`
 
