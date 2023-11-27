@@ -27,7 +27,9 @@ try{
 // Version du style CSS, pour réinitialiser le cache par MAJ du style.
 let cssVersion = "1.3"
 //
-document.getElementById("style").parentElement.innerHTML += `<link rel="stylesheet" href="` + document.getElementById("style").href + `?v=` + cssVersion + `" id="style">`
+document.getElementById("style").parentElement.innerHTML += `<link rel="stylesheet" href="` + document.getElementById("style").href + `?v=` + cssVersion + `" id="style2">`
+
+document.getElementById("style2").href.innerHTML = document.getElementById("style").href + `?v=` + cssVersion
 
 // Timer d'1s pour eviter un clignotement d'une page blanche.
 setTimeout(() => {
