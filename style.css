@@ -35,7 +35,7 @@
 body{
     color: #9E2A33;
     background-color: #01040D;
-    /* background-image: url(images/background_pattern.png); */
+    background-image: url(images/background_pattern.png);
     margin: 0;
     width: 100%;
     height: 100vh;
